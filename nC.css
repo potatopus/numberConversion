@@ -1,0 +1,130 @@
+.body {
+    margin: 0;
+    background-image: linear-gradient(to right top, #08090c, #0c0d12, #0f1117, #11141b, #13171f, #161b25, #19202a, #1c2430, #222b39, #283142, #2e384b, #343f54);
+    background-attachment: fixed;
+    color: #e0e1dd;
+}
+
+.container {
+    position: relative;
+    background-color: #16191d;
+    width: max-content;
+    height: fit-content;
+    border-start-start-radius: 12px;
+    border-start-end-radius: 12px;
+    border-end-start-radius: 8px;
+    border-end-end-radius: 8px;
+    margin: auto;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: rgb(66, 66, 66);
+}
+
+.group {
+    font-style: oblique;
+    font-weight: 900;
+    font-size: large;
+    color: rgb(190, 190, 190);
+}
+
+#numberInput {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: right;
+    width: 98%;
+    height: 26px;
+    margin: 0;
+    outline: none;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+#conversion {
+    font-size: 14px;
+    right: 20px;
+    text-align: right;
+    border: 0;
+    outline: none;
+}
+
+#baseButtonBin {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #343A40;
+    color: #ADB5BD;
+}
+
+#baseButtonDec {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #343A40;
+    color: #ADB5BD;
+}
+
+#baseButtonOct {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #343A40;
+    color: #ADB5BD;
+}
+
+#baseButtonHex {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #343A40;
+    color: #ADB5BD;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 20%;
+    background-color: #495057;
+    color: #F8F9FA;
+}
+
+.button:disabled {
+    opacity: 30%;
+}
+
+.hexButton {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 20%;
+    background-color: #495057;
+    color: #F8F9FA;
+}
+
+.hexButton:disabled {
+    opacity: 30%;
+}
+
+#functionButton {
+    width: 60px;
+    height: 60px;
+    margin: 2px 1px;
+    border: 0;
+    border-radius: 20%;
+    background-color: #343A40;
+    color: #ADB5BD;
+}
+
+button:enabled:active {
+    background: linear-gradient(225deg, #333333ad, #1d1d1da9, #131313a8, #000000ab);
+}
